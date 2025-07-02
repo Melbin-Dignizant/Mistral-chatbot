@@ -450,7 +450,7 @@ class AIProcessor:
 
             if not relevant_pages:
                 self.logger.info("No relevant content found in documents, falling back to general knowledge")
-                return self.answer_general_question(question)  # Fall back to general knowledge
+                return self.answer_general_question(question, from_doc_fallback=True)
 
             # Rest of the method remains the same...
             # Group by document for better organization
@@ -685,7 +685,7 @@ class AIProcessor:
             
             if not relevant_pages:
                 self.logger.info("No relevant content found in document, falling back to general knowledge")
-                return self.answer_general_question(question)
+                return self.answer_general_question(question, from_doc_fallback=True)
 
             # Limit to top relevant pages
             top_relevant_pages = relevant_pages[:self.config.max_pages_in_response]
@@ -824,15 +824,26 @@ class AIProcessor:
                 error=f"Web search failed: {str(e)}"
             )
 
-    def answer_general_question(self, question: str) -> ProcessingResult:
-        """Answer general questions using Mistral's knowledge."""
+    def answer_general_question(self, question: str, from_doc_fallback: bool = False) -> ProcessingResult:
+        """Answer general questions, with an optional disclaimer for document fallbacks."""
         try:
             self.logger.processing("Answering with general AI knowledge")
+
+            system_prompt = "You are a helpful AI assistant. Answer questions clearly and comprehensively using your knowledge."
+            if from_doc_fallback:
+                system_prompt = (
+                    "You are a helpful AI assistant. You have just searched through one or more documents for an answer "
+                    "to the user's question but could not find it. Your task is now to answer the user's question "
+                    "using your general knowledge.\n\n"
+                    "**Crucially, you MUST start your response by clearly stating that the information was not in the document(s).** "
+                    "For example, start with 'That information could not be found in the provided document(s). Based on my general knowledge, ...' "
+                    "or a similar clear disclaimer."
+                )
 
             messages = [
                 {
                     "role": "system",
-                    "content": "You are a helpful AI assistant. Answer questions clearly and comprehensively using your knowledge."
+                    "content": system_prompt
                 },
                 {
                     "role": "user",
