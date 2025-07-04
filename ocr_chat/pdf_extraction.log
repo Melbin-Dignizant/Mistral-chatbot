@@ -1,0 +1,1389 @@
+2025-07-04 15:54:06,700 - INFO - Mistral client initialized successfully
+2025-07-04 15:54:06,700 - INFO - Starting text extraction...
+2025-07-04 15:54:06,700 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 15:54:08,117 - INFO - Processing page 1 of 5...
+2025-07-04 15:54:08,117 - INFO - Processing page 2 of 5...
+2025-07-04 15:54:08,117 - INFO - Processing page 3 of 5...
+2025-07-04 15:54:08,117 - INFO - Processing page 4 of 5...
+2025-07-04 15:54:08,117 - INFO - Processing page 5 of 5...
+2025-07-04 15:54:08,145 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpufmc3n84.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpufmc3n84.jpg'
+2025-07-04 15:54:08,162 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp43qagysd.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp43qagysd.jpg'
+2025-07-04 15:54:08,263 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpifkqvutj.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpifkqvutj.jpg'
+2025-07-04 15:54:08,290 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpi9o92aue.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpi9o92aue.jpg'
+2025-07-04 15:54:08,290 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1us498wy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1us498wy.jpg'
+2025-07-04 15:54:16,612 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:54:19,696 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:54:31,234 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:54:32,441 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:55:27,680 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:55:27,701 - INFO - Text saved to: 02_raw.txt
+2025-07-04 15:55:27,701 - INFO - Generating optimized text...
+2025-07-04 15:55:49,206 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:55:49,221 - INFO - Text saved to: 02_optimized.txt
+2025-07-04 15:55:49,221 - INFO - Generating related questions...
+2025-07-04 15:55:54,461 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:55:54,696 - INFO - Text saved to: 02_questions.txt
+2025-07-04 15:55:54,696 - INFO - Extracting structured data...
+2025-07-04 15:56:12,094 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:56:12,095 - INFO - Structured data saved to: 02_structured.json
+2025-07-04 15:56:12,095 - INFO - PDF processing completed
+2025-07-04 15:56:12,095 - INFO - All processing steps completed successfully
+2025-07-04 15:59:01,195 - INFO - Mistral client initialized successfully
+2025-07-04 15:59:01,195 - INFO - Starting text extraction...
+2025-07-04 15:59:01,195 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 15:59:02,645 - INFO - Processing page 1 of 5...
+2025-07-04 15:59:02,645 - INFO - Processing page 2 of 5...
+2025-07-04 15:59:02,645 - INFO - Processing page 3 of 5...
+2025-07-04 15:59:02,645 - INFO - Processing page 4 of 5...
+2025-07-04 15:59:02,645 - INFO - Processing page 5 of 5...
+2025-07-04 15:59:02,675 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp84z2n7k8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp84z2n7k8.jpg'
+2025-07-04 15:59:02,697 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpkcpbd9zj.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpkcpbd9zj.jpg'
+2025-07-04 15:59:02,795 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpd6czmhuj.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpd6czmhuj.jpg'
+2025-07-04 15:59:02,817 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzy3iizry.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzy3iizry.jpg'
+2025-07-04 15:59:02,817 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp7qlv4nmb.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp7qlv4nmb.jpg'
+2025-07-04 15:59:12,202 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:59:12,827 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:59:21,968 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 15:59:30,631 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:03:03,531 - INFO - Mistral client initialized successfully
+2025-07-04 16:03:03,531 - INFO - Starting text extraction...
+2025-07-04 16:03:03,531 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 16:03:04,963 - INFO - Processing page 1 of 5...
+2025-07-04 16:03:04,963 - INFO - Processing page 2 of 5...
+2025-07-04 16:03:04,963 - INFO - Processing page 3 of 5...
+2025-07-04 16:03:04,965 - INFO - Processing page 4 of 5...
+2025-07-04 16:03:04,965 - INFO - Processing page 5 of 5...
+2025-07-04 16:03:04,998 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5_j3qe7k.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5_j3qe7k.jpg'
+2025-07-04 16:03:05,017 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmphwt51927.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmphwt51927.jpg'
+2025-07-04 16:03:05,136 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpv9p8kn1c.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpv9p8kn1c.jpg'
+2025-07-04 16:03:05,136 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpp6cnnzyz.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpp6cnnzyz.jpg'
+2025-07-04 16:03:05,169 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwdgl8pwy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwdgl8pwy.jpg'
+2025-07-04 16:03:13,995 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:03:14,866 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:03:18,122 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:03:22,311 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:09:43,033 - INFO - Mistral client initialized successfully
+2025-07-04 16:09:43,033 - INFO - Starting text extraction...
+2025-07-04 16:09:43,033 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 16:09:44,449 - INFO - Processing page 1 of 5...
+2025-07-04 16:09:44,449 - INFO - Processing page 2 of 5...
+2025-07-04 16:09:44,449 - INFO - Processing page 3 of 5...
+2025-07-04 16:09:44,449 - INFO - Processing page 4 of 5...
+2025-07-04 16:09:44,449 - INFO - Processing page 5 of 5...
+2025-07-04 16:09:44,493 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpv34o1uv_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpv34o1uv_.jpg'
+2025-07-04 16:09:44,512 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5p3rgixm.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5p3rgixm.jpg'
+2025-07-04 16:09:44,607 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpoa7wdrgo.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpoa7wdrgo.jpg'
+2025-07-04 16:09:44,632 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp4jg0qm1h.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp4jg0qm1h.jpg'
+2025-07-04 16:09:44,632 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp638dv5hy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp638dv5hy.jpg'
+2025-07-04 16:09:52,759 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:09:53,264 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:04,085 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:05,733 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:11,063 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:11,087 - INFO - Text saved to: 02_raw.txt
+2025-07-04 16:10:11,087 - INFO - Generating optimized text...
+2025-07-04 16:10:24,232 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:24,248 - INFO - Text saved to: 02_optimized.txt
+2025-07-04 16:10:24,248 - INFO - Generating related questions...
+2025-07-04 16:10:29,005 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:29,005 - INFO - Text saved to: 02_questions.txt
+2025-07-04 16:10:29,005 - INFO - Extracting structured data...
+2025-07-04 16:10:43,365 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:10:43,372 - INFO - Structured data saved to: 02_structured.json
+2025-07-04 16:10:43,372 - INFO - PDF processing completed
+2025-07-04 16:10:43,372 - INFO - All processing steps completed successfully
+2025-07-04 16:24:14,204 - INFO - Mistral client initialized successfully
+2025-07-04 16:24:14,204 - INFO - Starting text extraction...
+2025-07-04 16:24:14,204 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 16:24:16,072 - INFO - Processing page 1 of 22...
+2025-07-04 16:24:16,072 - INFO - Processing page 2 of 22...
+2025-07-04 16:24:16,072 - INFO - Processing page 3 of 22...
+2025-07-04 16:24:16,072 - INFO - Processing page 4 of 22...
+2025-07-04 16:24:16,072 - INFO - Processing page 5 of 22...
+2025-07-04 16:24:16,072 - INFO - Processing page 6 of 22...
+2025-07-04 16:24:16,106 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpxzipz_2p.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpxzipz_2p.jpg'
+2025-07-04 16:24:16,108 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_d0th3wy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_d0th3wy.jpg'
+2025-07-04 16:24:16,108 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5b6ljtpa.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5b6ljtpa.jpg'
+2025-07-04 16:24:16,110 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp76ju4qz9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp76ju4qz9.jpg'
+2025-07-04 16:24:16,112 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpdxdovl_o.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpdxdovl_o.jpg'
+2025-07-04 16:24:16,112 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpkwguirql.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpkwguirql.jpg'
+2025-07-04 16:24:20,368 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:20,368 - INFO - Processing page 7 of 22...
+2025-07-04 16:24:20,396 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpgsxpjibk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpgsxpjibk.jpg'
+2025-07-04 16:24:20,675 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:20,676 - INFO - Processing page 8 of 22...
+2025-07-04 16:24:20,704 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpqifxiis1.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpqifxiis1.jpg'
+2025-07-04 16:24:21,987 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:21,989 - INFO - Processing page 9 of 22...
+2025-07-04 16:24:22,012 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2wp45iiz.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2wp45iiz.jpg'
+2025-07-04 16:24:26,533 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:26,533 - INFO - Processing page 10 of 22...
+2025-07-04 16:24:26,551 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwf37v6wa.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwf37v6wa.jpg'
+2025-07-04 16:24:26,620 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:26,620 - INFO - Processing page 11 of 22...
+2025-07-04 16:24:26,642 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9cy_2ora.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9cy_2ora.jpg'
+2025-07-04 16:24:36,383 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:36,438 - INFO - Processing page 12 of 22...
+2025-07-04 16:24:36,460 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpnnmmjpdv.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpnnmmjpdv.jpg'
+2025-07-04 16:24:38,126 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:38,128 - INFO - Processing page 13 of 22...
+2025-07-04 16:24:38,153 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmph3jo48ht.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmph3jo48ht.jpg'
+2025-07-04 16:24:38,746 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:38,748 - INFO - Processing page 14 of 22...
+2025-07-04 16:24:38,775 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpkdywze6k.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpkdywze6k.jpg'
+2025-07-04 16:24:40,818 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:40,825 - INFO - Processing page 15 of 22...
+2025-07-04 16:24:40,850 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpj2j4j9qz.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpj2j4j9qz.jpg'
+2025-07-04 16:24:44,329 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:44,329 - INFO - Processing page 16 of 22...
+2025-07-04 16:24:44,360 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpw7b4n_98.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpw7b4n_98.jpg'
+2025-07-04 16:24:47,081 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:47,086 - INFO - Processing page 17 of 22...
+2025-07-04 16:24:47,099 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp77_dfaab.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp77_dfaab.jpg'
+2025-07-04 16:24:48,788 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:48,792 - INFO - Processing page 18 of 22...
+2025-07-04 16:24:48,818 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpbcxjdniy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpbcxjdniy.jpg'
+2025-07-04 16:24:49,649 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:49,649 - INFO - Processing page 19 of 22...
+2025-07-04 16:24:49,671 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmplfgv6tbd.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmplfgv6tbd.jpg'
+2025-07-04 16:24:57,059 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:57,069 - INFO - Processing page 20 of 22...
+2025-07-04 16:24:57,104 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpoo98e8a8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpoo98e8a8.jpg'
+2025-07-04 16:24:58,489 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:58,493 - INFO - Processing page 21 of 22...
+2025-07-04 16:24:58,514 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp64ov31pk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp64ov31pk.jpg'
+2025-07-04 16:24:58,701 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:24:58,701 - INFO - Processing page 22 of 22...
+2025-07-04 16:24:58,741 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmphi7_626c.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmphi7_626c.jpg'
+2025-07-04 16:25:00,243 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:04,633 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:06,935 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:08,499 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:09,470 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:12,464 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:12,491 - INFO - Text saved to: 03_raw.txt
+2025-07-04 16:25:12,491 - INFO - Generating optimized text...
+2025-07-04 16:25:20,273 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:20,278 - INFO - Text saved to: 03_optimized.txt
+2025-07-04 16:25:20,284 - INFO - Generating related questions...
+2025-07-04 16:25:24,659 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:24,672 - INFO - Text saved to: 03_questions.txt
+2025-07-04 16:25:24,672 - INFO - Extracting structured data...
+2025-07-04 16:25:29,549 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:25:29,549 - INFO - Structured data saved to: 03_structured.json
+2025-07-04 16:25:29,549 - INFO - PDF processing completed
+2025-07-04 16:25:29,549 - INFO - All processing steps completed successfully
+2025-07-04 16:44:33,269 - INFO - Mistral client initialized successfully
+2025-07-04 16:44:33,269 - INFO - Processing 2 PDF files...
+2025-07-04 16:44:33,273 - INFO - Starting text extraction for 03.pdf...
+2025-07-04 16:44:33,273 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 16:44:33,273 - INFO - Starting text extraction for 04.pdf...
+2025-07-04 16:44:33,273 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 16:44:35,216 - INFO - Processing page 1 of 22...
+2025-07-04 16:44:35,216 - INFO - Processing page 2 of 22...
+2025-07-04 16:44:35,217 - INFO - Processing page 3 of 22...
+2025-07-04 16:44:35,217 - INFO - Processing page 4 of 22...
+2025-07-04 16:44:35,260 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_6n66_m3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_6n66_m3.jpg'
+2025-07-04 16:44:35,260 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwp5elev3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwp5elev3.jpg'
+2025-07-04 16:44:35,260 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp18g5rzw2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp18g5rzw2.jpg'
+2025-07-04 16:44:35,260 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpfl2hp7rt.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpfl2hp7rt.jpg'
+2025-07-04 16:44:37,541 - INFO - Processing page 1 of 10...
+2025-07-04 16:44:37,541 - INFO - Processing page 2 of 10...
+2025-07-04 16:44:37,541 - INFO - Processing page 3 of 10...
+2025-07-04 16:44:37,541 - INFO - Processing page 4 of 10...
+2025-07-04 16:44:37,590 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmps8ewhgrl.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmps8ewhgrl.jpg'
+2025-07-04 16:44:37,595 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpehvgwlia.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpehvgwlia.jpg'
+2025-07-04 16:44:37,595 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp08f6fa3e.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp08f6fa3e.jpg'
+2025-07-04 16:44:37,621 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpuaugzhhn.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpuaugzhhn.jpg'
+2025-07-04 16:44:40,164 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:40,164 - INFO - Processing page 5 of 22...
+2025-07-04 16:44:40,185 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmppym38ay4.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmppym38ay4.jpg'
+2025-07-04 16:44:40,688 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:40,919 - INFO - Processing page 6 of 22...
+2025-07-04 16:44:40,940 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvjij6osh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvjij6osh.jpg'
+2025-07-04 16:44:41,823 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:41,823 - INFO - Processing page 7 of 22...
+2025-07-04 16:44:41,847 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzh5zisb_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzh5zisb_.jpg'
+2025-07-04 16:44:42,172 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:42,172 - INFO - Processing page 5 of 10...
+2025-07-04 16:44:42,213 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpraa0g6x2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpraa0g6x2.jpg'
+2025-07-04 16:44:43,262 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:43,267 - INFO - Processing page 6 of 10...
+2025-07-04 16:44:43,296 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpa7woqwbb.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpa7woqwbb.jpg'
+2025-07-04 16:44:44,168 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:44,169 - INFO - Processing page 8 of 22...
+2025-07-04 16:44:44,187 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpph6q08zq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpph6q08zq.jpg'
+2025-07-04 16:44:46,494 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:46,494 - INFO - Processing page 7 of 10...
+2025-07-04 16:44:46,533 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwqhry2m2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwqhry2m2.jpg'
+2025-07-04 16:44:50,171 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:50,179 - INFO - Processing page 8 of 10...
+2025-07-04 16:44:50,211 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp8kkgqmx8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp8kkgqmx8.jpg'
+2025-07-04 16:44:51,749 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:51,749 - INFO - Processing page 9 of 10...
+2025-07-04 16:44:51,783 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp318g9b42.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp318g9b42.jpg'
+2025-07-04 16:44:52,492 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:52,492 - INFO - Processing page 10 of 10...
+2025-07-04 16:44:52,531 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpn723n19z.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpn723n19z.jpg'
+2025-07-04 16:44:53,971 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:53,972 - INFO - Processing page 9 of 22...
+2025-07-04 16:44:53,989 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpli3acvu7.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpli3acvu7.jpg'
+2025-07-04 16:44:56,426 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:59,836 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:44:59,836 - INFO - Processing page 10 of 22...
+2025-07-04 16:44:59,861 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpiqfqeni_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpiqfqeni_.jpg'
+2025-07-04 16:45:00,113 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:02,158 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:02,158 - INFO - Processing page 11 of 22...
+2025-07-04 16:45:02,185 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmptzfag_g4.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmptzfag_g4.jpg'
+2025-07-04 16:45:03,015 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:03,015 - INFO - Processing page 12 of 22...
+2025-07-04 16:45:03,046 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp6wb4o6d6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp6wb4o6d6.jpg'
+2025-07-04 16:45:04,124 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:04,844 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:04,882 - INFO - Text saved to: output_04\output\04_raw.txt
+2025-07-04 16:45:04,882 - INFO - Generating optimized text for 04.pdf...
+2025-07-04 16:45:14,323 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:14,324 - INFO - Processing page 13 of 22...
+2025-07-04 16:45:14,342 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpw2gcpxp5.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpw2gcpxp5.jpg'
+2025-07-04 16:45:14,841 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:14,841 - INFO - Processing page 14 of 22...
+2025-07-04 16:45:14,865 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpbhi_9xit.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpbhi_9xit.jpg'
+2025-07-04 16:45:16,299 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:16,300 - INFO - Processing page 15 of 22...
+2025-07-04 16:45:16,318 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpy5gj6hp6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpy5gj6hp6.jpg'
+2025-07-04 16:45:20,128 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:20,136 - INFO - Text saved to: output_04\output\04_optimized.txt
+2025-07-04 16:45:20,136 - INFO - Generating related questions for 04.pdf...
+2025-07-04 16:45:23,563 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:23,571 - INFO - Processing page 16 of 22...
+2025-07-04 16:45:23,599 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpodhkuopy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpodhkuopy.jpg'
+2025-07-04 16:45:25,546 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:25,561 - INFO - Processing page 17 of 22...
+2025-07-04 16:45:25,583 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9596cuzc.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9596cuzc.jpg'
+2025-07-04 16:45:26,411 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:26,415 - INFO - Text saved to: output_04\output\04_questions.txt
+2025-07-04 16:45:26,415 - INFO - Extracting structured data for 04.pdf...
+2025-07-04 16:45:34,065 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:34,068 - INFO - Processing page 18 of 22...
+2025-07-04 16:45:34,087 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpdzd093h0.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpdzd093h0.jpg'
+2025-07-04 16:45:34,192 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:34,195 - INFO - Processing page 19 of 22...
+2025-07-04 16:45:34,212 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpc4iq8ku0.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpc4iq8ku0.jpg'
+2025-07-04 16:45:40,409 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:40,413 - INFO - Processing page 20 of 22...
+2025-07-04 16:45:40,443 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmperwxjoba.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmperwxjoba.jpg'
+2025-07-04 16:45:42,601 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:42,601 - INFO - Processing page 21 of 22...
+2025-07-04 16:45:42,638 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpaaie10yw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpaaie10yw.jpg'
+2025-07-04 16:45:45,588 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:45,588 - INFO - Structured data saved to: output_04\output\04_structured.json
+2025-07-04 16:45:45,588 - INFO - PDF processing completed for 04.pdf
+2025-07-04 16:45:45,588 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 16:45:46,288 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:46,299 - INFO - Processing page 22 of 22...
+2025-07-04 16:45:46,328 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpq_dd_2ti.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpq_dd_2ti.jpg'
+2025-07-04 16:45:49,810 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:51,971 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:54,648 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:55,079 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:45:55,112 - INFO - Text saved to: output_03\output\03_raw.txt
+2025-07-04 16:45:55,112 - INFO - Generating optimized text for 03.pdf...
+2025-07-04 16:46:01,679 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:46:01,684 - INFO - Text saved to: output_03\output\03_optimized.txt
+2025-07-04 16:46:01,684 - INFO - Generating related questions for 03.pdf...
+2025-07-04 16:46:06,449 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:46:06,454 - INFO - Text saved to: output_03\output\03_questions.txt
+2025-07-04 16:46:06,454 - INFO - Extracting structured data for 03.pdf...
+2025-07-04 16:46:11,919 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 16:46:11,926 - INFO - Structured data saved to: output_03\output\03_structured.json
+2025-07-04 16:46:11,926 - INFO - PDF processing completed for 03.pdf
+2025-07-04 16:46:11,926 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 16:46:11,929 - INFO - Processing complete. Success: 2/2
+2025-07-04 17:19:57,129 - INFO - Mistral chat client initialized successfully.
+2025-07-04 17:19:57,129 - ERROR - No valid output directories found to load processed PDF data from.
+2025-07-04 17:19:57,129 - INFO - Please ensure you have run the PDF extraction process (e.g., by calling main_extraction()) first.
+2025-07-04 17:20:48,791 - INFO - Mistral chat client initialized successfully.
+2025-07-04 17:20:48,791 - ERROR - No valid output directories found to load processed PDF data from.
+2025-07-04 17:20:48,791 - INFO - Please ensure you have run the PDF extraction process (e.g., by calling main_extraction()) first.
+2025-07-04 17:21:02,754 - INFO - Mistral client initialized successfully
+2025-07-04 17:21:02,754 - INFO - Processing 2 PDF files...
+2025-07-04 17:21:02,754 - INFO - Starting text extraction for 03.pdf...
+2025-07-04 17:21:02,754 - INFO - Starting text extraction for 04.pdf...
+2025-07-04 17:21:02,754 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 17:21:02,754 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 17:21:04,842 - INFO - Processing page 1 of 22...
+2025-07-04 17:21:04,842 - INFO - Processing page 2 of 22...
+2025-07-04 17:21:04,842 - INFO - Processing page 3 of 22...
+2025-07-04 17:21:04,842 - INFO - Processing page 4 of 22...
+2025-07-04 17:21:04,872 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5kww4nen.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5kww4nen.jpg'
+2025-07-04 17:21:04,872 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpn26xpsmh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpn26xpsmh.jpg'
+2025-07-04 17:21:04,872 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp40z0h7p3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp40z0h7p3.jpg'
+2025-07-04 17:21:04,872 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpj8ejgi_s.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpj8ejgi_s.jpg'
+2025-07-04 17:21:06,937 - INFO - Processing page 1 of 10...
+2025-07-04 17:21:06,937 - INFO - Processing page 2 of 10...
+2025-07-04 17:21:06,937 - INFO - Processing page 3 of 10...
+2025-07-04 17:21:06,937 - INFO - Processing page 4 of 10...
+2025-07-04 17:21:06,975 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpinunb6kc.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpinunb6kc.jpg'
+2025-07-04 17:21:06,990 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpgzgqiqvq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpgzgqiqvq.jpg'
+2025-07-04 17:21:06,990 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpfby1p1z_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpfby1p1z_.jpg'
+2025-07-04 17:21:06,992 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpmrl1tjll.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpmrl1tjll.jpg'
+2025-07-04 17:21:10,592 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:10,592 - INFO - Processing page 5 of 22...
+2025-07-04 17:21:10,611 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpd1jekthb.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpd1jekthb.jpg'
+2025-07-04 17:21:13,788 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:13,792 - INFO - Processing page 6 of 22...
+2025-07-04 17:21:13,808 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5m14db_4.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5m14db_4.jpg'
+2025-07-04 17:21:15,112 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:15,112 - INFO - Processing page 5 of 10...
+2025-07-04 17:21:15,140 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9sqxlbnc.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9sqxlbnc.jpg'
+2025-07-04 17:21:15,552 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:15,552 - INFO - Processing page 6 of 10...
+2025-07-04 17:21:15,588 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmphwwthz3_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmphwwthz3_.jpg'
+2025-07-04 17:21:20,647 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:20,649 - INFO - Processing page 7 of 10...
+2025-07-04 17:21:20,677 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpf6mnxudd.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpf6mnxudd.jpg'
+2025-07-04 17:21:22,326 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:22,332 - INFO - Processing page 7 of 22...
+2025-07-04 17:21:22,350 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5rfn14g7.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5rfn14g7.jpg'
+2025-07-04 17:21:22,577 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:22,577 - INFO - Processing page 8 of 22...
+2025-07-04 17:21:22,595 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpg_lqwibd.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpg_lqwibd.jpg'
+2025-07-04 17:21:24,856 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:24,856 - INFO - Processing page 8 of 10...
+2025-07-04 17:21:24,887 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpsl21e9id.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpsl21e9id.jpg'
+2025-07-04 17:21:30,134 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:30,136 - INFO - Processing page 9 of 22...
+2025-07-04 17:21:30,157 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpexfry0j9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpexfry0j9.jpg'
+2025-07-04 17:21:31,166 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:31,166 - INFO - Processing page 9 of 10...
+2025-07-04 17:21:31,195 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp7kzkwq_t.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp7kzkwq_t.jpg'
+2025-07-04 17:21:32,083 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:32,085 - INFO - Processing page 10 of 10...
+2025-07-04 17:21:32,113 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp4_bkvhmi.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp4_bkvhmi.jpg'
+2025-07-04 17:21:39,391 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:39,392 - INFO - Processing page 10 of 22...
+2025-07-04 17:21:39,409 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpuec21r58.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpuec21r58.jpg'
+2025-07-04 17:21:47,761 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:49,528 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:53,044 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:53,044 - INFO - Processing page 11 of 22...
+2025-07-04 17:21:53,062 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9f4sqzjo.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9f4sqzjo.jpg'
+2025-07-04 17:21:54,823 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:55,051 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:21:55,073 - INFO - Text saved to: output_04\output\04_raw.txt
+2025-07-04 17:21:55,073 - INFO - Generating optimized text for 04.pdf...
+2025-07-04 17:22:06,024 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:06,028 - INFO - Processing page 12 of 22...
+2025-07-04 17:22:06,051 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1i3nnlzf.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1i3nnlzf.jpg'
+2025-07-04 17:22:11,656 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:11,659 - INFO - Processing page 13 of 22...
+2025-07-04 17:22:11,679 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_26nk0kg.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_26nk0kg.jpg'
+2025-07-04 17:22:21,797 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:21,815 - INFO - Processing page 14 of 22...
+2025-07-04 17:22:21,835 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpix5eqkg_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpix5eqkg_.jpg'
+2025-07-04 17:22:27,631 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:27,635 - INFO - Text saved to: output_04\output\04_optimized.txt
+2025-07-04 17:22:27,635 - INFO - Generating related questions for 04.pdf...
+2025-07-04 17:22:28,231 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:28,232 - INFO - Processing page 15 of 22...
+2025-07-04 17:22:28,249 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_24_m44l.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_24_m44l.jpg'
+2025-07-04 17:22:29,889 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:29,892 - INFO - Processing page 16 of 22...
+2025-07-04 17:22:29,916 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzfgq7sd9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzfgq7sd9.jpg'
+2025-07-04 17:22:33,349 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:33,350 - INFO - Processing page 17 of 22...
+2025-07-04 17:22:33,366 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmphvxpiu9k.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmphvxpiu9k.jpg'
+2025-07-04 17:22:44,529 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:44,536 - INFO - Text saved to: output_04\output\04_questions.txt
+2025-07-04 17:22:44,536 - INFO - Extracting structured data for 04.pdf...
+2025-07-04 17:22:48,146 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:48,150 - INFO - Processing page 18 of 22...
+2025-07-04 17:22:48,172 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpakjfgnjv.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpakjfgnjv.jpg'
+2025-07-04 17:22:54,556 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:22:54,557 - INFO - Processing page 19 of 22...
+2025-07-04 17:22:54,574 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpf2tqpuxf.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpf2tqpuxf.jpg'
+2025-07-04 17:23:05,108 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:05,111 - INFO - Processing page 20 of 22...
+2025-07-04 17:23:05,149 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp12yo7uro.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp12yo7uro.jpg'
+2025-07-04 17:23:06,427 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:06,432 - INFO - Processing page 21 of 22...
+2025-07-04 17:23:06,468 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp738i21fw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp738i21fw.jpg'
+2025-07-04 17:23:09,211 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:09,212 - INFO - Processing page 22 of 22...
+2025-07-04 17:23:09,236 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpa5uikd7e.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpa5uikd7e.jpg'
+2025-07-04 17:23:20,629 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:21,931 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:27,946 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:29,177 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:29,192 - INFO - Text saved to: output_03\output\03_raw.txt
+2025-07-04 17:23:29,192 - INFO - Generating optimized text for 03.pdf...
+2025-07-04 17:23:44,348 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:44,355 - INFO - Structured data saved to: output_04\output\04_structured.json
+2025-07-04 17:23:44,355 - INFO - PDF processing completed for 04.pdf
+2025-07-04 17:23:44,355 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 17:23:46,634 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:46,640 - INFO - Text saved to: output_03\output\03_optimized.txt
+2025-07-04 17:23:46,640 - INFO - Generating related questions for 03.pdf...
+2025-07-04 17:23:50,988 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:50,999 - INFO - Text saved to: output_03\output\03_questions.txt
+2025-07-04 17:23:50,999 - INFO - Extracting structured data for 03.pdf...
+2025-07-04 17:23:53,442 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:23:53,446 - INFO - PDF processing completed for 03.pdf
+2025-07-04 17:23:53,446 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 17:23:53,448 - INFO - Processing complete. Success: 2/2
+2025-07-04 17:24:21,892 - INFO - Mistral chat client initialized successfully.
+2025-07-04 17:24:21,893 - WARNING - Optimized text not found for '03' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_03\03_optimized.txt. Skipping.
+2025-07-04 17:24:21,893 - WARNING - Structured data not found for '03' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_03\03_structured.json. Skipping.
+2025-07-04 17:24:21,893 - WARNING - No usable data loaded for '03'. Skipping this document for chat context.
+2025-07-04 17:24:21,893 - WARNING - Optimized text not found for '04' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_04\04_optimized.txt. Skipping.
+2025-07-04 17:24:21,893 - WARNING - Structured data not found for '04' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_04\04_structured.json. Skipping.
+2025-07-04 17:24:21,893 - WARNING - No usable data loaded for '04'. Skipping this document for chat context.
+2025-07-04 17:24:21,893 - WARNING - No PDF data loaded. Chatbot will operate without document context and rely on general knowledge.
+2025-07-04 17:24:21,893 - INFO - Starting interactive chat. Type 'exit' or 'quit' to end.
+2025-07-04 17:24:21,893 - ERROR - No document context available for the chatbot. Please ensure PDF data is loaded correctly.
+2025-07-04 17:24:25,403 - INFO - Sending query to Mistral API. Total context provided (chars): 129.
+2025-07-04 17:24:25,412 - ERROR - Error during chat: Chat.complete() got an unexpected keyword argument 'timeout'
+2025-07-04 17:26:17,457 - ERROR - Failed to initialize Mistral chat client: Mistral.__init__() got an unexpected keyword argument 'timeout'
+2025-07-04 17:27:29,745 - ERROR - Failed to initialize Mistral chat client: Mistral.__init__() got an unexpected keyword argument 'http_client'
+2025-07-04 17:28:42,929 - INFO - Mistral client initialized successfully for extraction.
+2025-07-04 17:28:42,929 - WARNING - Optimized text not found for '03' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_03\03_optimized.txt. Skipping.
+2025-07-04 17:28:42,929 - WARNING - Structured data not found for '03' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_03\03_structured.json. Skipping.
+2025-07-04 17:28:42,929 - WARNING - No usable data loaded for '03'. Skipping this document for chat context.
+2025-07-04 17:28:42,929 - WARNING - Optimized text not found for '04' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_04\04_optimized.txt. Skipping.
+2025-07-04 17:28:42,929 - WARNING - Structured data not found for '04' at D:\Melbin\Geometra_Chatbot\cortex_mistral\ocr_chat\output_04\04_structured.json. Skipping.
+2025-07-04 17:28:42,929 - WARNING - No usable data loaded for '04'. Skipping this document for chat context.
+2025-07-04 17:28:42,929 - WARNING - No PDF data loaded. Chatbot will operate without document context and rely on general knowledge.
+2025-07-04 17:28:42,929 - INFO - Starting interactive chat. Type 'exit' or 'quit' to end.
+2025-07-04 17:28:42,929 - ERROR - No document context available for the chatbot. Please ensure PDF data is loaded correctly.
+2025-07-04 17:28:45,970 - INFO - Sending query to Mistral API. Total context provided (chars): 129.
+2025-07-04 17:28:46,559 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:28:50,790 - INFO - Sending query to Mistral API. Total context provided (chars): 135.
+2025-07-04 17:28:51,413 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:29:04,620 - INFO - Sending query to Mistral API. Total context provided (chars): 145.
+2025-07-04 17:29:05,500 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:44:48,230 - INFO - Starting processing for 02.pdf...
+2025-07-04 17:44:48,230 - INFO - Starting processing for 03.pdf...
+2025-07-04 17:44:48,238 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 17:44:48,240 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 17:44:49,862 - INFO - Processing page 1 of 5...
+2025-07-04 17:44:49,862 - INFO - Processing page 2 of 5...
+2025-07-04 17:44:49,862 - INFO - Processing page 3 of 5...
+2025-07-04 17:44:49,862 - INFO - Processing page 4 of 5...
+2025-07-04 17:44:49,862 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:49,862 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:49,862 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:49,862 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:49,862 - ERROR - Failed to encode image for page 1
+2025-07-04 17:44:49,862 - ERROR - Failed to encode image for page 3
+2025-07-04 17:44:49,862 - ERROR - Failed to encode image for page 2
+2025-07-04 17:44:49,862 - ERROR - Failed to encode image for page 4
+2025-07-04 17:44:49,862 - INFO - Processing page 5 of 5...
+2025-07-04 17:44:49,862 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:49,862 - ERROR - Failed to encode image for page 5
+2025-07-04 17:44:49,862 - ERROR - No text extracted from any page
+2025-07-04 17:44:50,422 - INFO - Processing page 1 of 22...
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - INFO - Processing page 2 of 22...
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 1
+2025-07-04 17:44:50,424 - INFO - Processing page 3 of 22...
+2025-07-04 17:44:50,424 - INFO - Processing page 4 of 22...
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - INFO - Processing page 5 of 22...
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 2
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 3
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 4
+2025-07-04 17:44:50,424 - INFO - Processing page 6 of 22...
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 5
+2025-07-04 17:44:50,424 - INFO - Processing page 7 of 22...
+2025-07-04 17:44:50,424 - INFO - Processing page 8 of 22...
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - INFO - Processing page 9 of 22...
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 6
+2025-07-04 17:44:50,424 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 7
+2025-07-04 17:44:50,424 - ERROR - Failed to encode image for page 8
+2025-07-04 17:44:50,426 - INFO - Processing page 10 of 22...
+2025-07-04 17:44:50,426 - ERROR - Failed to encode image for page 9
+2025-07-04 17:44:50,426 - INFO - Processing page 11 of 22...
+2025-07-04 17:44:50,426 - INFO - Processing page 12 of 22...
+2025-07-04 17:44:50,426 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,426 - INFO - Processing page 13 of 22...
+2025-07-04 17:44:50,427 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,427 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,427 - ERROR - Failed to encode image for page 10
+2025-07-04 17:44:50,427 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,427 - ERROR - Failed to encode image for page 11
+2025-07-04 17:44:50,427 - ERROR - Failed to encode image for page 12
+2025-07-04 17:44:50,427 - INFO - Processing page 14 of 22...
+2025-07-04 17:44:50,427 - ERROR - Failed to encode image for page 13
+2025-07-04 17:44:50,427 - INFO - Processing page 15 of 22...
+2025-07-04 17:44:50,427 - INFO - Processing page 16 of 22...
+2025-07-04 17:44:50,427 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,427 - INFO - Processing page 17 of 22...
+2025-07-04 17:44:50,429 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,429 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,429 - ERROR - Failed to encode image for page 14
+2025-07-04 17:44:50,429 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,429 - ERROR - Failed to encode image for page 15
+2025-07-04 17:44:50,429 - ERROR - Failed to encode image for page 16
+2025-07-04 17:44:50,429 - INFO - Processing page 18 of 22...
+2025-07-04 17:44:50,429 - ERROR - Failed to encode image for page 17
+2025-07-04 17:44:50,430 - INFO - Processing page 19 of 22...
+2025-07-04 17:44:50,430 - INFO - Processing page 20 of 22...
+2025-07-04 17:44:50,430 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,430 - INFO - Processing page 21 of 22...
+2025-07-04 17:44:50,430 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,430 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,431 - ERROR - Failed to encode image for page 18
+2025-07-04 17:44:50,431 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,431 - ERROR - Failed to encode image for page 19
+2025-07-04 17:44:50,431 - ERROR - Failed to encode image for page 20
+2025-07-04 17:44:50,431 - INFO - Processing page 22 of 22...
+2025-07-04 17:44:50,431 - ERROR - Failed to encode image for page 21
+2025-07-04 17:44:50,431 - ERROR - Error encoding image: name 'tempfile' is not defined
+2025-07-04 17:44:50,431 - ERROR - Failed to encode image for page 22
+2025-07-04 17:44:50,432 - ERROR - No text extracted from any page
+2025-07-04 17:46:40,536 - INFO - Starting processing for 03.pdf...
+2025-07-04 17:46:40,536 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 17:46:40,536 - INFO - Starting processing for 02.pdf...
+2025-07-04 17:46:40,536 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 17:46:42,084 - INFO - Processing page 1 of 5...
+2025-07-04 17:46:42,084 - INFO - Processing page 2 of 5...
+2025-07-04 17:46:42,084 - INFO - Processing page 3 of 5...
+2025-07-04 17:46:42,084 - INFO - Processing page 4 of 5...
+2025-07-04 17:46:42,108 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpud0247sb.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpud0247sb.jpg'
+2025-07-04 17:46:42,126 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1a4ao1u3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1a4ao1u3.jpg'
+2025-07-04 17:46:42,262 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5uijzqly.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5uijzqly.jpg'
+2025-07-04 17:46:42,262 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvendbzcv.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvendbzcv.jpg'
+2025-07-04 17:46:42,697 - INFO - Processing page 1 of 22...
+2025-07-04 17:46:42,697 - INFO - Processing page 2 of 22...
+2025-07-04 17:46:42,697 - INFO - Processing page 3 of 22...
+2025-07-04 17:46:42,697 - INFO - Processing page 4 of 22...
+2025-07-04 17:46:42,722 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpz4mlnzd2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpz4mlnzd2.jpg'
+2025-07-04 17:46:42,722 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpl124vlp7.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpl124vlp7.jpg'
+2025-07-04 17:46:42,728 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpgppi_a95.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpgppi_a95.jpg'
+2025-07-04 17:46:42,735 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp4claya7r.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp4claya7r.jpg'
+2025-07-04 17:46:49,622 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:46:49,622 - INFO - Processing page 5 of 22...
+2025-07-04 17:46:49,642 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpteregv_6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpteregv_6.jpg'
+2025-07-04 17:46:50,150 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:46:50,152 - INFO - Processing page 6 of 22...
+2025-07-04 17:46:50,175 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzipwyyxt.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzipwyyxt.jpg'
+2025-07-04 17:46:54,123 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:46:54,123 - INFO - Processing page 5 of 5...
+2025-07-04 17:46:54,208 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmplp7phrp4.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmplp7phrp4.jpg'
+2025-07-04 17:46:54,362 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:46:54,362 - INFO - Processing page 7 of 22...
+2025-07-04 17:46:54,396 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzuwwh__m.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzuwwh__m.jpg'
+2025-07-04 17:46:55,096 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:46:55,101 - INFO - Processing page 8 of 22...
+2025-07-04 17:46:55,124 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpmd73jb2c.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpmd73jb2c.jpg'
+2025-07-04 17:47:05,933 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:05,941 - INFO - Processing page 9 of 22...
+2025-07-04 17:47:05,963 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpovot16zr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpovot16zr.jpg'
+2025-07-04 17:47:07,363 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:09,154 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:10,836 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:19,163 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:19,171 - INFO - Processing page 10 of 22...
+2025-07-04 17:47:19,190 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpem3vpbjq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpem3vpbjq.jpg'
+2025-07-04 17:47:23,086 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:23,108 - INFO - Text saved to: output\02\02_raw.txt
+2025-07-04 17:47:24,814 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:24,822 - INFO - Processing page 11 of 22...
+2025-07-04 17:47:24,844 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpi0gs5bjf.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpi0gs5bjf.jpg'
+2025-07-04 17:47:26,041 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:26,046 - INFO - Processing page 12 of 22...
+2025-07-04 17:47:26,068 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp18wlxhzw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp18wlxhzw.jpg'
+2025-07-04 17:47:30,649 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:30,649 - INFO - Processing page 13 of 22...
+2025-07-04 17:47:30,674 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2ldsxfto.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2ldsxfto.jpg'
+2025-07-04 17:47:45,162 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:45,165 - INFO - Processing page 14 of 22...
+2025-07-04 17:47:45,195 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp93ulstfw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp93ulstfw.jpg'
+2025-07-04 17:47:48,494 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:48,494 - INFO - Processing page 15 of 22...
+2025-07-04 17:47:48,525 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp17fdmlzi.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp17fdmlzi.jpg'
+2025-07-04 17:47:57,529 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:57,531 - INFO - Processing page 16 of 22...
+2025-07-04 17:47:57,555 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpjbgpbg2n.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpjbgpbg2n.jpg'
+2025-07-04 17:47:58,867 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:47:58,879 - INFO - Text saved to: output\02\02_optimized.txt
+2025-07-04 17:48:01,115 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:01,128 - INFO - Processing page 17 of 22...
+2025-07-04 17:48:01,147 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpp1m_1im0.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpp1m_1im0.jpg'
+2025-07-04 17:48:08,590 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:08,596 - INFO - Text saved to: output\02\02_questions.txt
+2025-07-04 17:48:14,742 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:14,746 - INFO - Processing page 18 of 22...
+2025-07-04 17:48:14,765 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpd1p9ee1k.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpd1p9ee1k.jpg'
+2025-07-04 17:48:15,916 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:15,923 - INFO - Processing page 19 of 22...
+2025-07-04 17:48:15,944 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpgu63bot5.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpgu63bot5.jpg'
+2025-07-04 17:48:30,417 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:30,417 - INFO - Processing page 20 of 22...
+2025-07-04 17:48:30,456 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpxwj9ju21.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpxwj9ju21.jpg'
+2025-07-04 17:48:33,346 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:33,346 - INFO - Processing page 21 of 22...
+2025-07-04 17:48:33,372 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2v2nmlio.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2v2nmlio.jpg'
+2025-07-04 17:48:41,007 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:41,010 - INFO - Processing page 22 of 22...
+2025-07-04 17:48:41,039 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpdlovv3k8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpdlovv3k8.jpg'
+2025-07-04 17:48:41,387 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:43,638 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:49,289 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:57,387 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:48:57,417 - INFO - Text saved to: output\03\03_raw.txt
+2025-07-04 17:49:08,588 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:49:14,489 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:49:14,489 - INFO - Text saved to: output\03\03_optimized.txt
+2025-07-04 17:49:20,538 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:49:20,538 - INFO - Text saved to: output\03\03_questions.txt
+2025-07-04 17:50:15,861 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:33,738 - INFO - Starting processing for 02.pdf...
+2025-07-04 17:58:33,738 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 17:58:33,738 - INFO - Starting processing for 03.pdf...
+2025-07-04 17:58:33,738 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 17:58:35,305 - INFO - Processing page 1 of 5 from 02...
+2025-07-04 17:58:35,305 - INFO - Processing page 2 of 5 from 02...
+2025-07-04 17:58:35,305 - INFO - Processing page 3 of 5 from 02...
+2025-07-04 17:58:35,306 - INFO - Processing page 4 of 5 from 02...
+2025-07-04 17:58:35,334 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpeww2mrks.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpeww2mrks.jpg'
+2025-07-04 17:58:35,350 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpi70ftksp.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpi70ftksp.jpg'
+2025-07-04 17:58:35,476 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpc9gm3ckz.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpc9gm3ckz.jpg'
+2025-07-04 17:58:35,497 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmprp94mnge.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmprp94mnge.jpg'
+2025-07-04 17:58:35,927 - INFO - Processing page 1 of 22 from 03...
+2025-07-04 17:58:35,927 - INFO - Processing page 2 of 22 from 03...
+2025-07-04 17:58:35,927 - INFO - Processing page 3 of 22 from 03...
+2025-07-04 17:58:35,927 - INFO - Processing page 4 of 22 from 03...
+2025-07-04 17:58:35,949 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9ys579l1.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9ys579l1.jpg'
+2025-07-04 17:58:35,949 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpjr1jldsc.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpjr1jldsc.jpg'
+2025-07-04 17:58:35,949 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmplgyw9wzl.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmplgyw9wzl.jpg'
+2025-07-04 17:58:35,961 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpz9o2xtjk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpz9o2xtjk.jpg'
+2025-07-04 17:58:43,917 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:45,417 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:48,242 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:50,357 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:52,177 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:52,179 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:54,747 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:56,310 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:58,653 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:59,007 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:58:59,797 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:00,769 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:00,770 - INFO - Processing page 5 of 22 from 03...
+2025-07-04 17:59:00,795 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp6v_sg3b3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp6v_sg3b3.jpg'
+2025-07-04 17:59:02,088 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:02,218 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:02,220 - INFO - Processing page 6 of 22 from 03...
+2025-07-04 17:59:02,240 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmprcj7y9rk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmprcj7y9rk.jpg'
+2025-07-04 17:59:05,688 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:05,690 - INFO - Processing page 7 of 22 from 03...
+2025-07-04 17:59:05,709 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvdln0g3j.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvdln0g3j.jpg'
+2025-07-04 17:59:12,029 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:14,638 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:18,780 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:18,859 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:21,221 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:22,887 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:31,981 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:32,449 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:32,449 - INFO - Processing page 8 of 22 from 03...
+2025-07-04 17:59:32,474 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp4s6sf_rg.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp4s6sf_rg.jpg'
+2025-07-04 17:59:33,193 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:33,900 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:34,639 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:37,429 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:38,489 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:39,714 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:41,961 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:41,961 - INFO - Processing page 5 of 5 from 02...
+2025-07-04 17:59:42,041 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpjy2m3yuq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpjy2m3yuq.jpg'
+2025-07-04 17:59:42,389 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:45,039 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:47,812 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:50,338 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:50,342 - INFO - Processing page 9 of 22 from 03...
+2025-07-04 17:59:50,361 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmprk_ygesx.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmprk_ygesx.jpg'
+2025-07-04 17:59:50,506 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:50,971 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:55,066 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:57,343 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 17:59:58,500 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:06,462 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:07,370 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:09,875 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:12,596 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:15,574 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:18,372 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:18,480 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:23,099 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:23,225 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:25,124 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:25,133 - INFO - Processing page 10 of 22 from 03...
+2025-07-04 18:00:25,161 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpmy0gf8rn.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpmy0gf8rn.jpg'
+2025-07-04 18:00:25,482 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:29,774 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:38,191 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:43,956 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:43,960 - INFO - Processing page 11 of 22 from 03...
+2025-07-04 18:00:43,987 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2tzzile0.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2tzzile0.jpg'
+2025-07-04 18:00:48,638 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:00:48,640 - INFO - Processing page 12 of 22 from 03...
+2025-07-04 18:00:48,663 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp3gw_uxe8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp3gw_uxe8.jpg'
+2025-07-04 18:00:49,598 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:05,834 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:05,973 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:05,975 - INFO - Processing page 13 of 22 from 03...
+2025-07-04 18:01:05,994 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp41yk_p2z.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp41yk_p2z.jpg'
+2025-07-04 18:01:15,614 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:17,497 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:21,584 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:21,773 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:28,323 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:31,993 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:37,654 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:37,875 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:40,830 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:43,356 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:49,638 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:49,641 - INFO - Processing page 14 of 22 from 03...
+2025-07-04 18:01:49,665 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2uh9tw5y.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2uh9tw5y.jpg'
+2025-07-04 18:01:53,314 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:01:53,318 - INFO - Processing page 15 of 22 from 03...
+2025-07-04 18:01:53,344 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1ebf8s4s.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1ebf8s4s.jpg'
+2025-07-04 18:01:57,627 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:02,353 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:02,358 - INFO - Processing page 16 of 22 from 03...
+2025-07-04 18:02:02,385 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_u5qe4hi.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_u5qe4hi.jpg'
+2025-07-04 18:02:16,901 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:16,905 - INFO - Processing page 17 of 22 from 03...
+2025-07-04 18:02:16,930 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpeidjbl0r.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpeidjbl0r.jpg'
+2025-07-04 18:02:21,885 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:23,895 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:27,794 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:35,979 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:37,226 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:40,566 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:46,500 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:48,636 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:02:52,108 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:03,848 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:13,938 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:13,942 - INFO - Processing page 18 of 22 from 03...
+2025-07-04 18:03:13,966 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpx0vhsbz8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpx0vhsbz8.jpg'
+2025-07-04 18:03:14,291 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:14,294 - INFO - Processing page 19 of 22 from 03...
+2025-07-04 18:03:14,322 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpal2dwjio.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpal2dwjio.jpg'
+2025-07-04 18:03:18,391 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:26,898 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:27,966 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:27,969 - INFO - Processing page 20 of 22 from 03...
+2025-07-04 18:03:28,002 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpy1_1ly0d.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpy1_1ly0d.jpg'
+2025-07-04 18:03:32,912 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:44,631 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:49,353 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:50,362 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:54,860 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:54,865 - INFO - Processing page 21 of 22 from 03...
+2025-07-04 18:03:54,896 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp0vm30uv4.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp0vm30uv4.jpg'
+2025-07-04 18:03:58,117 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:03:59,087 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:08,016 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:08,021 - INFO - Processing page 22 of 22 from 03...
+2025-07-04 18:04:08,042 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:08,054 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpqosx0ymf.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpqosx0ymf.jpg'
+2025-07-04 18:04:10,877 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:15,610 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:20,080 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:20,679 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:26,021 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:36,945 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:39,882 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:45,014 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:46,069 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:50,890 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:04:58,114 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:05:11,374 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:05:11,395 - INFO - Consolidated raw text saved to: output\consolidated_raw.txt
+2025-07-04 18:05:11,399 - INFO - Consolidated optimized text saved to: output\consolidated_optimized.txt
+2025-07-04 18:05:11,399 - INFO - Consolidated questions saved to: output\consolidated_questions.txt
+2025-07-04 18:05:11,399 - INFO - Consolidated structured data saved to: output\consolidated_structured.json
+2025-07-04 18:13:27,442 - INFO - Starting processing for 03.pdf...
+2025-07-04 18:13:27,442 - INFO - Starting processing for 02.pdf...
+2025-07-04 18:13:27,442 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 18:13:27,447 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:13:29,213 - INFO - Processing page 1 of 5...
+2025-07-04 18:13:29,213 - INFO - Processing page 2 of 5...
+2025-07-04 18:13:29,213 - INFO - Processing page 3 of 5...
+2025-07-04 18:13:29,213 - INFO - Processing page 4 of 5...
+2025-07-04 18:13:29,251 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpshg5fnpy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpshg5fnpy.jpg'
+2025-07-04 18:13:29,266 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp0akqcw6p.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp0akqcw6p.jpg'
+2025-07-04 18:13:29,356 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpx63ak_x3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpx63ak_x3.jpg'
+2025-07-04 18:13:29,376 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpuicnkgma.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpuicnkgma.jpg'
+2025-07-04 18:13:29,749 - INFO - Processing page 1 of 22...
+2025-07-04 18:13:29,749 - INFO - Processing page 2 of 22...
+2025-07-04 18:13:29,751 - INFO - Processing page 3 of 22...
+2025-07-04 18:13:29,751 - INFO - Processing page 4 of 22...
+2025-07-04 18:13:29,775 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzxx58ew2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzxx58ew2.jpg'
+2025-07-04 18:13:29,775 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmppi09p0qm.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmppi09p0qm.jpg'
+2025-07-04 18:13:29,775 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmptq_iy1we.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmptq_iy1we.jpg'
+2025-07-04 18:13:29,775 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpi3giukct.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpi3giukct.jpg'
+2025-07-04 18:13:35,771 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:35,772 - INFO - Processing page 5 of 22...
+2025-07-04 18:13:35,800 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpmnsca4sj.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpmnsca4sj.jpg'
+2025-07-04 18:13:36,057 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:36,058 - INFO - Processing page 6 of 22...
+2025-07-04 18:13:36,080 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_s_5vuow.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_s_5vuow.jpg'
+2025-07-04 18:13:40,341 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:40,343 - INFO - Processing page 7 of 22...
+2025-07-04 18:13:40,364 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp6wrup9xa.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp6wrup9xa.jpg'
+2025-07-04 18:13:47,630 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:47,633 - INFO - Processing page 8 of 22...
+2025-07-04 18:13:47,656 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpe1923zz2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpe1923zz2.jpg'
+2025-07-04 18:13:50,145 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:50,148 - INFO - Processing page 5 of 5...
+2025-07-04 18:13:50,245 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpxmaq0ese.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpxmaq0ese.jpg'
+2025-07-04 18:13:56,997 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:58,197 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:13:58,198 - INFO - Processing page 9 of 22...
+2025-07-04 18:13:58,221 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpgyz72kyv.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpgyz72kyv.jpg'
+2025-07-04 18:14:07,612 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:07,792 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:10,873 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:10,897 - INFO - Text saved to: output\02\02_raw.txt
+2025-07-04 18:14:12,742 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:12,748 - INFO - Processing page 10 of 22...
+2025-07-04 18:14:12,773 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpz9whrk3u.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpz9whrk3u.jpg'
+2025-07-04 18:14:19,473 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:19,473 - INFO - Processing page 11 of 22...
+2025-07-04 18:14:19,493 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp8lo7hfw7.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp8lo7hfw7.jpg'
+2025-07-04 18:14:22,248 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:22,253 - INFO - Processing page 12 of 22...
+2025-07-04 18:14:22,276 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpyrvfkp3q.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpyrvfkp3q.jpg'
+2025-07-04 18:14:34,443 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:34,449 - INFO - Processing page 13 of 22...
+2025-07-04 18:14:34,469 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp42i4iuer.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp42i4iuer.jpg'
+2025-07-04 18:14:40,374 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:40,374 - INFO - Processing page 14 of 22...
+2025-07-04 18:14:40,398 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmph12zjjfk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmph12zjjfk.jpg'
+2025-07-04 18:14:41,848 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:41,853 - INFO - Processing page 15 of 22...
+2025-07-04 18:14:41,874 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1twxv0mq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1twxv0mq.jpg'
+2025-07-04 18:14:51,924 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:51,928 - INFO - Text saved to: output\02\02_optimized.txt
+2025-07-04 18:14:57,029 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:14:57,034 - INFO - Processing page 16 of 22...
+2025-07-04 18:14:57,059 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp6ib_tdxh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp6ib_tdxh.jpg'
+2025-07-04 18:15:11,770 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:11,774 - INFO - Processing page 17 of 22...
+2025-07-04 18:15:11,796 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvhh6rded.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvhh6rded.jpg'
+2025-07-04 18:15:13,117 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:13,118 - INFO - Processing page 18 of 22...
+2025-07-04 18:15:13,145 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5n2i1hi1.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5n2i1hi1.jpg'
+2025-07-04 18:15:13,198 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:13,198 - INFO - Text saved to: output\02\02_questions.txt
+2025-07-04 18:15:26,171 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:26,189 - INFO - Processing page 19 of 22...
+2025-07-04 18:15:26,209 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpoxxj1y1h.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpoxxj1y1h.jpg'
+2025-07-04 18:15:27,643 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:27,659 - INFO - Processing page 20 of 22...
+2025-07-04 18:15:27,689 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpuaspo6ri.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpuaspo6ri.jpg'
+2025-07-04 18:15:35,623 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:35,624 - INFO - Processing page 21 of 22...
+2025-07-04 18:15:35,650 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpuxmd027a.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpuxmd027a.jpg'
+2025-07-04 18:15:39,973 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:39,977 - INFO - Processing page 22 of 22...
+2025-07-04 18:15:40,007 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpukx4svda.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpukx4svda.jpg'
+2025-07-04 18:15:45,009 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:46,875 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:48,938 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:55,377 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:57,656 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:15:57,669 - INFO - Text saved to: output\03\03_raw.txt
+2025-07-04 18:16:14,908 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:16:14,908 - INFO - Text saved to: output\03\03_optimized.txt
+2025-07-04 18:16:21,549 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:16:21,556 - INFO - Text saved to: output\03\03_questions.txt
+2025-07-04 18:19:33,652 - INFO - Mistral client initialized successfully
+2025-07-04 18:19:33,652 - INFO - Processing 2 PDF files...
+2025-07-04 18:19:33,653 - INFO - Starting text extraction for 03.pdf...
+2025-07-04 18:19:33,653 - INFO - Starting text extraction for 04.pdf...
+2025-07-04 18:19:33,654 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 18:19:33,654 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 18:19:35,579 - INFO - Processing page 1 of 22...
+2025-07-04 18:19:35,579 - INFO - Processing page 2 of 22...
+2025-07-04 18:19:35,580 - INFO - Processing page 3 of 22...
+2025-07-04 18:19:35,580 - INFO - Processing page 4 of 22...
+2025-07-04 18:19:35,604 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpat1xywie.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpat1xywie.jpg'
+2025-07-04 18:19:35,607 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_kl1p51g.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_kl1p51g.jpg'
+2025-07-04 18:19:35,609 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpv5o_0nvj.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpv5o_0nvj.jpg'
+2025-07-04 18:19:35,609 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpbmctrvcy.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpbmctrvcy.jpg'
+2025-07-04 18:19:36,733 - INFO - Processing page 1 of 7...
+2025-07-04 18:19:36,733 - INFO - Processing page 2 of 7...
+2025-07-04 18:19:36,733 - INFO - Processing page 3 of 7...
+2025-07-04 18:19:36,733 - INFO - Processing page 4 of 7...
+2025-07-04 18:19:36,772 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpcigkwkfo.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpcigkwkfo.jpg'
+2025-07-04 18:19:36,786 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpb4pocouq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpb4pocouq.jpg'
+2025-07-04 18:19:36,786 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpnumel1fo.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpnumel1fo.jpg'
+2025-07-04 18:19:36,786 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpqku3fchz.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpqku3fchz.jpg'
+2025-07-04 18:19:41,888 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:41,892 - INFO - Processing page 5 of 22...
+2025-07-04 18:19:41,917 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvduipnlr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvduipnlr.jpg'
+2025-07-04 18:19:42,242 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:42,247 - INFO - Processing page 6 of 22...
+2025-07-04 18:19:42,269 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5ycnmjr2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5ycnmjr2.jpg'
+2025-07-04 18:19:43,096 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:43,099 - INFO - Processing page 5 of 7...
+2025-07-04 18:19:43,129 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1q7extk7.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1q7extk7.jpg'
+2025-07-04 18:19:48,025 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:48,026 - INFO - Processing page 6 of 7...
+2025-07-04 18:19:48,051 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp4t0aycs2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp4t0aycs2.jpg'
+2025-07-04 18:19:51,219 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:51,222 - INFO - Processing page 7 of 22...
+2025-07-04 18:19:51,242 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpho8i8bxa.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpho8i8bxa.jpg'
+2025-07-04 18:19:53,817 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:53,823 - INFO - Processing page 8 of 22...
+2025-07-04 18:19:53,842 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpv5txy888.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpv5txy888.jpg'
+2025-07-04 18:19:54,364 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:19:54,365 - INFO - Processing page 7 of 7...
+2025-07-04 18:19:54,390 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpt_cha5j_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpt_cha5j_.jpg'
+2025-07-04 18:19:54,535 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:05,385 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:05,392 - INFO - Processing page 9 of 22...
+2025-07-04 18:20:05,417 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpyrwpd351.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpyrwpd351.jpg'
+2025-07-04 18:20:05,432 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:07,841 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:09,447 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:09,451 - INFO - Processing page 10 of 22...
+2025-07-04 18:20:09,475 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpdrwwxn5w.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpdrwwxn5w.jpg'
+2025-07-04 18:20:29,547 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:29,563 - INFO - Processing page 11 of 22...
+2025-07-04 18:20:29,585 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2rxo43ow.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2rxo43ow.jpg'
+2025-07-04 18:20:33,555 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:33,587 - INFO - Text saved to: output_04\output\04_raw.txt
+2025-07-04 18:20:33,587 - INFO - Generating optimized text for 04.pdf...
+2025-07-04 18:20:34,292 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:34,299 - INFO - Processing page 12 of 22...
+2025-07-04 18:20:34,320 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpc2aq5nof.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpc2aq5nof.jpg'
+2025-07-04 18:20:37,047 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:37,051 - INFO - Processing page 13 of 22...
+2025-07-04 18:20:37,072 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwnuy0pgw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwnuy0pgw.jpg'
+2025-07-04 18:20:41,519 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:41,525 - INFO - Processing page 14 of 22...
+2025-07-04 18:20:41,552 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpq7ousk8y.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpq7ousk8y.jpg'
+2025-07-04 18:20:53,036 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:20:53,048 - INFO - Processing page 15 of 22...
+2025-07-04 18:20:53,066 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpybf4x89t.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpybf4x89t.jpg'
+2025-07-04 18:21:11,429 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:11,439 - INFO - Processing page 16 of 22...
+2025-07-04 18:21:11,464 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpjipm6rqo.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpjipm6rqo.jpg'
+2025-07-04 18:21:12,721 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:12,727 - INFO - Processing page 17 of 22...
+2025-07-04 18:21:12,749 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp59dmb6fx.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp59dmb6fx.jpg'
+2025-07-04 18:21:14,026 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:14,026 - INFO - Text saved to: output_04\output\04_optimized.txt
+2025-07-04 18:21:14,026 - INFO - Generating related questions for 04.pdf...
+2025-07-04 18:21:16,037 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:16,037 - INFO - Processing page 18 of 22...
+2025-07-04 18:21:16,068 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpplkalw1l.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpplkalw1l.jpg'
+2025-07-04 18:21:22,248 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:22,255 - INFO - Text saved to: output_04\output\04_questions.txt
+2025-07-04 18:21:22,255 - INFO - Extracting structured data for 04.pdf...
+2025-07-04 18:21:24,252 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:24,256 - INFO - Processing page 19 of 22...
+2025-07-04 18:21:24,282 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpos600qhw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpos600qhw.jpg'
+2025-07-04 18:21:41,715 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:41,726 - INFO - Processing page 20 of 22...
+2025-07-04 18:21:41,756 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpqa_3vci0.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpqa_3vci0.jpg'
+2025-07-04 18:21:41,837 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:41,839 - INFO - Processing page 21 of 22...
+2025-07-04 18:21:41,865 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9je9de2p.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9je9de2p.jpg'
+2025-07-04 18:21:45,871 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:21:45,875 - INFO - Processing page 22 of 22...
+2025-07-04 18:21:45,909 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpcr_63yfh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpcr_63yfh.jpg'
+2025-07-04 18:21:50,147 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:02,500 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:05,247 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:05,831 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:05,851 - INFO - Text saved to: output_03\output\03_raw.txt
+2025-07-04 18:22:05,851 - INFO - Generating optimized text for 03.pdf...
+2025-07-04 18:22:07,605 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:07,610 - INFO - Structured data saved to: output_04\output\04_structured.json
+2025-07-04 18:22:07,610 - INFO - PDF processing completed for 04.pdf
+2025-07-04 18:22:37,056 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:37,056 - INFO - Text saved to: output_03\output\03_optimized.txt
+2025-07-04 18:22:37,056 - INFO - Generating related questions for 03.pdf...
+2025-07-04 18:22:41,181 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:41,189 - INFO - Text saved to: output_03\output\03_questions.txt
+2025-07-04 18:22:41,189 - INFO - Extracting structured data for 03.pdf...
+2025-07-04 18:22:49,717 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:22:49,717 - INFO - Structured data saved to: output_03\output\03_structured.json
+2025-07-04 18:22:49,717 - INFO - PDF processing completed for 03.pdf
+2025-07-04 18:24:52,056 - INFO - Mistral client initialized successfully
+2025-07-04 18:24:52,056 - INFO - Processing 2 PDF files...
+2025-07-04 18:24:52,056 - INFO - Starting text extraction for 03.pdf...
+2025-07-04 18:24:52,056 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 18:24:52,056 - INFO - Starting text extraction for 04.pdf...
+2025-07-04 18:24:52,056 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 18:24:54,044 - INFO - Processing page 1 of 22...
+2025-07-04 18:24:54,044 - INFO - Processing page 2 of 22...
+2025-07-04 18:24:54,044 - INFO - Processing page 3 of 22...
+2025-07-04 18:24:54,044 - INFO - Processing page 4 of 22...
+2025-07-04 18:24:54,072 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpdxv924ox.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpdxv924ox.jpg'
+2025-07-04 18:24:54,072 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmppc2iyf_t.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmppc2iyf_t.jpg'
+2025-07-04 18:24:54,072 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpjqmjpm_v.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpjqmjpm_v.jpg'
+2025-07-04 18:24:54,072 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp7fvmu2oj.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp7fvmu2oj.jpg'
+2025-07-04 18:24:56,312 - INFO - Processing page 1 of 10...
+2025-07-04 18:24:56,312 - INFO - Processing page 2 of 10...
+2025-07-04 18:24:56,312 - INFO - Processing page 3 of 10...
+2025-07-04 18:24:56,313 - INFO - Processing page 4 of 10...
+2025-07-04 18:24:56,350 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_g18x0j9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_g18x0j9.jpg'
+2025-07-04 18:24:56,362 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpo5iu0_n2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpo5iu0_n2.jpg'
+2025-07-04 18:24:56,367 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvxywadsr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvxywadsr.jpg'
+2025-07-04 18:24:56,367 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpcoel4ajx.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpcoel4ajx.jpg'
+2025-07-04 18:25:00,995 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:00,999 - INFO - Processing page 5 of 22...
+2025-07-04 18:25:01,017 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpi4an1qjm.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpi4an1qjm.jpg'
+2025-07-04 18:25:03,091 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:03,091 - INFO - Processing page 6 of 22...
+2025-07-04 18:25:03,114 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpg2kapwxe.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpg2kapwxe.jpg'
+2025-07-04 18:25:04,587 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:04,589 - INFO - Processing page 5 of 10...
+2025-07-04 18:25:04,620 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpipe8xtev.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpipe8xtev.jpg'
+2025-07-04 18:25:07,249 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:07,249 - INFO - Processing page 7 of 22...
+2025-07-04 18:25:07,274 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmptjdmxb4t.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmptjdmxb4t.jpg'
+2025-07-04 18:25:07,610 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:07,616 - INFO - Processing page 6 of 10...
+2025-07-04 18:25:07,646 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpopewm7q6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpopewm7q6.jpg'
+2025-07-04 18:25:13,353 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:13,356 - INFO - Processing page 8 of 22...
+2025-07-04 18:25:13,377 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpayb0sh_c.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpayb0sh_c.jpg'
+2025-07-04 18:25:16,589 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:16,589 - INFO - Processing page 7 of 10...
+2025-07-04 18:25:16,625 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp55f1tvfv.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp55f1tvfv.jpg'
+2025-07-04 18:25:17,490 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:17,504 - INFO - Processing page 8 of 10...
+2025-07-04 18:25:17,539 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpb__ode6m.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpb__ode6m.jpg'
+2025-07-04 18:25:21,772 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:21,772 - INFO - Processing page 9 of 22...
+2025-07-04 18:25:21,790 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmph_wtq6qh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmph_wtq6qh.jpg'
+2025-07-04 18:25:24,530 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:24,544 - INFO - Processing page 9 of 10...
+2025-07-04 18:25:24,574 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp96ra1to9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp96ra1to9.jpg'
+2025-07-04 18:25:25,600 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:25,600 - INFO - Processing page 10 of 10...
+2025-07-04 18:25:25,637 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpv1jlfoxu.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpv1jlfoxu.jpg'
+2025-07-04 18:25:38,219 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:38,219 - INFO - Processing page 10 of 22...
+2025-07-04 18:25:38,247 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp5tjosd85.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp5tjosd85.jpg'
+2025-07-04 18:25:41,045 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:41,352 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:41,472 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:42,580 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:42,580 - INFO - Processing page 11 of 22...
+2025-07-04 18:25:42,605 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpewy63226.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpewy63226.jpg'
+2025-07-04 18:25:43,619 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:43,632 - INFO - Text saved to: output_04\output\04_raw.txt
+2025-07-04 18:25:43,632 - INFO - Generating optimized text for 04.pdf...
+2025-07-04 18:25:51,797 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:25:51,797 - INFO - Processing page 12 of 22...
+2025-07-04 18:25:51,835 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwquvs45o.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwquvs45o.jpg'
+2025-07-04 18:26:05,407 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:05,415 - INFO - Processing page 13 of 22...
+2025-07-04 18:26:05,441 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1xu4fwtd.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1xu4fwtd.jpg'
+2025-07-04 18:26:10,758 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:10,759 - INFO - Processing page 14 of 22...
+2025-07-04 18:26:10,777 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpb99jacn9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpb99jacn9.jpg'
+2025-07-04 18:26:18,025 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:18,027 - INFO - Text saved to: output_04\output\04_optimized.txt
+2025-07-04 18:26:18,027 - INFO - Generating related questions for 04.pdf...
+2025-07-04 18:26:22,830 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:22,832 - INFO - Processing page 15 of 22...
+2025-07-04 18:26:22,854 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpojqsrgb6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpojqsrgb6.jpg'
+2025-07-04 18:26:24,001 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:24,003 - INFO - Processing page 16 of 22...
+2025-07-04 18:26:24,022 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpxx64pdx1.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpxx64pdx1.jpg'
+2025-07-04 18:26:30,041 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:30,042 - INFO - Text saved to: output_04\output\04_questions.txt
+2025-07-04 18:26:30,043 - INFO - Extracting structured data for 04.pdf...
+2025-07-04 18:26:34,506 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:34,508 - INFO - Processing page 17 of 22...
+2025-07-04 18:26:34,529 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpz0onge9_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpz0onge9_.jpg'
+2025-07-04 18:26:50,007 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:50,010 - INFO - Processing page 18 of 22...
+2025-07-04 18:26:50,025 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpo5tviwmh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpo5tviwmh.jpg'
+2025-07-04 18:26:53,058 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:26:53,062 - INFO - Processing page 19 of 22...
+2025-07-04 18:26:53,083 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpghd360vr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpghd360vr.jpg'
+2025-07-04 18:27:01,286 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:01,290 - INFO - Processing page 20 of 22...
+2025-07-04 18:27:01,321 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpg2q0gupc.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpg2q0gupc.jpg'
+2025-07-04 18:27:09,032 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:09,034 - INFO - Processing page 21 of 22...
+2025-07-04 18:27:09,057 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzphfcjbg.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzphfcjbg.jpg'
+2025-07-04 18:27:12,151 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:12,154 - INFO - Structured data saved to: output_04\output\04_structured.json
+2025-07-04 18:27:12,154 - INFO - PDF processing completed for 04.pdf
+2025-07-04 18:27:12,154 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\04.pdf
+2025-07-04 18:27:19,789 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:19,789 - INFO - Processing page 22 of 22...
+2025-07-04 18:27:19,825 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpustaqb41.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpustaqb41.jpg'
+2025-07-04 18:27:20,984 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:24,534 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:30,199 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:39,491 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:27:39,508 - INFO - Text saved to: output_03\output\03_raw.txt
+2025-07-04 18:27:39,508 - INFO - Generating optimized text for 03.pdf...
+2025-07-04 18:28:14,623 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:28:14,626 - INFO - Text saved to: output_03\output\03_optimized.txt
+2025-07-04 18:28:14,626 - INFO - Generating related questions for 03.pdf...
+2025-07-04 18:28:20,773 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:28:20,778 - INFO - Text saved to: output_03\output\03_questions.txt
+2025-07-04 18:28:20,778 - INFO - Extracting structured data for 03.pdf...
+2025-07-04 18:28:33,108 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:28:33,108 - INFO - Structured data saved to: output_03\output\03_structured.json
+2025-07-04 18:28:33,108 - INFO - PDF processing completed for 03.pdf
+2025-07-04 18:28:33,108 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 18:28:33,117 - INFO - Processing complete. Success: 2/2
+2025-07-04 18:31:40,751 - INFO - Mistral client initialized successfully
+2025-07-04 18:31:40,753 - INFO - Processing 2 PDF files...
+2025-07-04 18:31:40,753 - INFO - Starting text extraction for 03.pdf...
+2025-07-04 18:31:40,753 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 18:31:40,753 - INFO - Starting text extraction for 02.pdf...
+2025-07-04 18:31:40,753 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:31:42,316 - INFO - Processing page 1 of 5...
+2025-07-04 18:31:42,316 - INFO - Processing page 2 of 5...
+2025-07-04 18:31:42,316 - INFO - Processing page 3 of 5...
+2025-07-04 18:31:42,316 - INFO - Processing page 4 of 5...
+2025-07-04 18:31:42,316 - INFO - Processing page 5 of 5...
+2025-07-04 18:31:42,346 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpn9rbpu2j.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpn9rbpu2j.jpg'
+2025-07-04 18:31:42,368 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpb8jn6w6j.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpb8jn6w6j.jpg'
+2025-07-04 18:31:42,518 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_1jpxqwc.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_1jpxqwc.jpg'
+2025-07-04 18:31:42,518 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpeoiqc9la.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpeoiqc9la.jpg'
+2025-07-04 18:31:42,549 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp40mc62f6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp40mc62f6.jpg'
+2025-07-04 18:31:42,954 - INFO - Processing page 1 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 2 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 3 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 4 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 5 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 6 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 7 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 8 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 9 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 10 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 11 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 12 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 13 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 14 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 15 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 16 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 17 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 18 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 19 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 20 of 22...
+2025-07-04 18:31:42,954 - INFO - Processing page 21 of 22...
+2025-07-04 18:31:42,970 - INFO - Processing page 22 of 22...
+2025-07-04 18:31:43,021 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpfgwy32zh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpfgwy32zh.jpg'
+2025-07-04 18:31:43,025 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp8w1p500f.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp8w1p500f.jpg'
+2025-07-04 18:31:43,037 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvfhbun7d.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvfhbun7d.jpg'
+2025-07-04 18:31:43,045 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmplcy5idok.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmplcy5idok.jpg'
+2025-07-04 18:31:43,046 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpvm_ohorr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpvm_ohorr.jpg'
+2025-07-04 18:31:43,047 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_1i2fg6m.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_1i2fg6m.jpg'
+2025-07-04 18:31:43,050 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpnwccq28p.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpnwccq28p.jpg'
+2025-07-04 18:31:43,077 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpsv6yvzp1.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpsv6yvzp1.jpg'
+2025-07-04 18:31:43,079 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpzzbdpsa2.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpzzbdpsa2.jpg'
+2025-07-04 18:31:43,086 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpcv_ypi7y.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpcv_ypi7y.jpg'
+2025-07-04 18:31:43,089 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpg3e4dfq6.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpg3e4dfq6.jpg'
+2025-07-04 18:31:43,089 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp09a_kfzw.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp09a_kfzw.jpg'
+2025-07-04 18:31:43,089 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp191vup44.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp191vup44.jpg'
+2025-07-04 18:31:43,104 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpy28w1f1y.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpy28w1f1y.jpg'
+2025-07-04 18:31:43,115 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp15x7w3jm.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp15x7w3jm.jpg'
+2025-07-04 18:31:43,127 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmplwgkxbuz.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmplwgkxbuz.jpg'
+2025-07-04 18:31:43,148 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpw_dc8bt9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpw_dc8bt9.jpg'
+2025-07-04 18:31:43,154 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpez5relwf.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpez5relwf.jpg'
+2025-07-04 18:31:43,159 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmptfjytw9r.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmptfjytw9r.jpg'
+2025-07-04 18:31:43,196 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpfmelikvr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpfmelikvr.jpg'
+2025-07-04 18:31:43,196 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpy4x7pxr3.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpy4x7pxr3.jpg'
+2025-07-04 18:31:43,196 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp9tw726yp.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp9tw726yp.jpg'
+2025-07-04 18:31:47,664 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:51,853 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:52,540 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:53,105 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:53,157 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:53,609 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:53,857 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:58,230 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:31:59,597 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:01,792 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:02,737 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:03,585 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:04,558 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:04,688 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:05,026 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:06,434 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:07,308 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:08,280 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:08,995 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:09,018 - INFO - Text saved to: output_02\output\02_raw.txt
+2025-07-04 18:32:09,018 - INFO - Generating optimized text for 02.pdf...
+2025-07-04 18:32:09,110 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:11,397 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:11,718 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:12,280 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:12,405 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:12,599 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:23,523 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:44,358 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:44,358 - INFO - Text saved to: output_02\output\02_optimized.txt
+2025-07-04 18:32:44,358 - INFO - Generating related questions for 02.pdf...
+2025-07-04 18:32:52,691 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:32:52,691 - INFO - Text saved to: output_02\output\02_questions.txt
+2025-07-04 18:32:52,691 - INFO - Extracting structured data for 02.pdf...
+2025-07-04 18:33:13,640 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:33:13,643 - INFO - Structured data saved to: output_02\output\02_structured.json
+2025-07-04 18:33:13,643 - INFO - PDF processing completed for 02.pdf
+2025-07-04 18:33:13,643 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:36:59,494 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:36:59,517 - INFO - Text saved to: output_03\output\03_raw.txt
+2025-07-04 18:36:59,517 - INFO - Generating optimized text for 03.pdf...
+2025-07-04 18:37:17,567 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:37:17,570 - INFO - Text saved to: output_03\output\03_optimized.txt
+2025-07-04 18:37:17,570 - INFO - Generating related questions for 03.pdf...
+2025-07-04 18:37:22,656 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:37:22,661 - INFO - Text saved to: output_03\output\03_questions.txt
+2025-07-04 18:37:22,661 - INFO - Extracting structured data for 03.pdf...
+2025-07-04 18:37:33,123 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:37:33,127 - INFO - Structured data saved to: output_03\output\03_structured.json
+2025-07-04 18:37:33,128 - INFO - PDF processing completed for 03.pdf
+2025-07-04 18:37:33,128 - INFO - Successfully processed: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\03.pdf
+2025-07-04 18:37:33,129 - INFO - Processing complete. Success: 2/2
+2025-07-04 18:43:06,122 - INFO - Mistral client initialized successfully
+2025-07-04 18:43:06,122 - INFO - Starting text extraction...
+2025-07-04 18:43:06,122 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:43:07,562 - INFO - Processing page 1 of 5...
+2025-07-04 18:43:07,562 - INFO - Processing page 2 of 5...
+2025-07-04 18:43:07,562 - INFO - Processing page 3 of 5...
+2025-07-04 18:43:07,562 - INFO - Processing page 4 of 5...
+2025-07-04 18:43:07,562 - INFO - Processing page 5 of 5...
+2025-07-04 18:43:07,590 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpdx2bgwng.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpdx2bgwng.jpg'
+2025-07-04 18:43:07,615 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpc63vjv2r.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpc63vjv2r.jpg'
+2025-07-04 18:43:07,710 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmplwl0b5rm.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmplwl0b5rm.jpg'
+2025-07-04 18:43:07,737 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmprxqngkcq.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmprxqngkcq.jpg'
+2025-07-04 18:43:07,737 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpns5_7sgf.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpns5_7sgf.jpg'
+2025-07-04 18:43:30,008 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:43:31,411 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:43:39,132 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:43:46,303 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:46:06,547 - INFO - Mistral client initialized successfully
+2025-07-04 18:46:06,547 - INFO - Starting text extraction...
+2025-07-04 18:46:06,547 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:46:07,977 - INFO - Processing page 1 of 5...
+2025-07-04 18:46:07,977 - INFO - Processing page 2 of 5...
+2025-07-04 18:46:07,977 - INFO - Processing page 3 of 5...
+2025-07-04 18:46:07,977 - INFO - Processing page 4 of 5...
+2025-07-04 18:46:07,977 - INFO - Processing page 5 of 5...
+2025-07-04 18:46:08,007 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpj2c_m16p.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpj2c_m16p.jpg'
+2025-07-04 18:46:08,030 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp42pqpi53.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp42pqpi53.jpg'
+2025-07-04 18:46:08,126 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpl6blf9ee.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpl6blf9ee.jpg'
+2025-07-04 18:46:08,147 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpmml6e3nk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpmml6e3nk.jpg'
+2025-07-04 18:46:08,147 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpwrvwndmk.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpwrvwndmk.jpg'
+2025-07-04 18:46:27,979 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:46:29,568 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:46:30,271 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:46:41,467 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:46:52,913 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:46:52,934 - INFO - Text saved to: 02_raw.txt
+2025-07-04 18:46:52,934 - INFO - Generating optimized text...
+2025-07-04 18:47:33,308 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:47:33,310 - INFO - Text saved to: 02_optimized.txt
+2025-07-04 18:47:33,310 - INFO - Generating related questions...
+2025-07-04 18:47:39,902 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:47:39,907 - INFO - Text saved to: 02_questions.txt
+2025-07-04 18:47:39,907 - INFO - Extracting structured data...
+2025-07-04 18:48:05,698 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:48:05,702 - INFO - Structured data saved to: 02_structured.json
+2025-07-04 18:48:05,702 - INFO - PDF processing completed
+2025-07-04 18:48:05,702 - INFO - All processing steps completed successfully
+2025-07-04 18:49:00,184 - INFO - Mistral client initialized successfully
+2025-07-04 18:49:00,189 - INFO - Starting PDF text extraction...
+2025-07-04 18:49:00,189 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:49:01,627 - INFO - Successfully converted PDF to 5 images
+2025-07-04 18:49:01,627 - INFO - Processing page 1 of 5...
+2025-07-04 18:49:01,627 - INFO - Processing page 2 of 5...
+2025-07-04 18:49:01,627 - INFO - Processing page 3 of 5...
+2025-07-04 18:49:01,627 - INFO - Processing page 4 of 5...
+2025-07-04 18:49:01,627 - INFO - Processing page 5 of 5...
+2025-07-04 18:49:01,654 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmppin_cf16.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmppin_cf16.jpg'
+2025-07-04 18:49:01,677 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp1b5pyqm8.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp1b5pyqm8.jpg'
+2025-07-04 18:49:01,779 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpnra85ui_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpnra85ui_.jpg'
+2025-07-04 18:49:01,779 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp0hbymmbn.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp0hbymmbn.jpg'
+2025-07-04 18:49:01,809 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpn_420pi1.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpn_420pi1.jpg'
+2025-07-04 18:49:19,990 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:49:19,990 - INFO - Successfully extracted text from page 5
+2025-07-04 18:49:20,934 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:49:20,940 - INFO - Successfully extracted text from page 1
+2025-07-04 18:49:27,538 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:49:27,541 - INFO - Successfully extracted text from page 2
+2025-07-04 18:49:43,351 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:49:43,351 - INFO - Successfully extracted text from page 3
+2025-07-04 18:49:43,401 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:49:43,410 - INFO - Successfully extracted text from page 4
+2025-07-04 18:49:43,411 - INFO - Successfully extracted text from 5 out of 5 pages
+2025-07-04 18:49:43,424 - INFO - Text saved to: extracted_text.txt
+2025-07-04 18:49:43,424 - INFO - Text extraction completed successfully. Output saved to: extracted_text.txt
+2025-07-04 18:50:28,359 - INFO - Mistral client initialized successfully
+2025-07-04 18:50:28,359 - INFO - Starting text extraction...
+2025-07-04 18:50:28,359 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:50:29,763 - INFO - Processing page 1 of 5...
+2025-07-04 18:50:29,763 - INFO - Processing page 2 of 5...
+2025-07-04 18:50:29,763 - INFO - Processing page 3 of 5...
+2025-07-04 18:50:29,763 - INFO - Processing page 4 of 5...
+2025-07-04 18:50:29,763 - INFO - Processing page 5 of 5...
+2025-07-04 18:50:29,793 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmps36787ti.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmps36787ti.jpg'
+2025-07-04 18:50:29,816 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpyqj67ubh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpyqj67ubh.jpg'
+2025-07-04 18:50:29,913 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpf7xnfjca.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpf7xnfjca.jpg'
+2025-07-04 18:50:29,913 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpc8mddp5_.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpc8mddp5_.jpg'
+2025-07-04 18:50:29,947 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpagg2wwsh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpagg2wwsh.jpg'
+2025-07-04 18:50:45,983 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:50:46,890 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:51:04,100 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:51:12,340 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:51:23,281 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:51:23,305 - INFO - Text saved to: 02_raw.txt
+2025-07-04 18:51:23,305 - INFO - Generating optimized text...
+2025-07-04 18:51:58,296 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:51:58,303 - INFO - Text saved to: 02_optimized.txt
+2025-07-04 18:51:58,303 - INFO - Generating related questions...
+2025-07-04 18:52:10,556 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:52:10,560 - INFO - Text saved to: 02_questions.txt
+2025-07-04 18:52:10,560 - INFO - Extracting structured data...
+2025-07-04 18:52:46,583 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:52:46,588 - INFO - Structured data saved to: 02_structured.json
+2025-07-04 18:52:46,588 - INFO - PDF processing completed
+2025-07-04 18:52:46,588 - INFO - All processing steps completed successfully
+2025-07-04 18:54:14,651 - INFO - Mistral client initialized successfully
+2025-07-04 18:54:14,651 - INFO - Starting text extraction...
+2025-07-04 18:54:14,651 - INFO - Converting PDF to images: D:\Melbin\Geometra_Chatbot\cortex_mistral\documents\02.pdf
+2025-07-04 18:54:16,051 - INFO - Processing page 1 of 5...
+2025-07-04 18:54:16,051 - INFO - Processing page 2 of 5...
+2025-07-04 18:54:16,051 - INFO - Processing page 3 of 5...
+2025-07-04 18:54:16,051 - INFO - Processing page 4 of 5...
+2025-07-04 18:54:16,051 - INFO - Processing page 5 of 5...
+2025-07-04 18:54:16,081 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp2q2_t_rr.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp2q2_t_rr.jpg'
+2025-07-04 18:54:16,101 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpph280wy9.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpph280wy9.jpg'
+2025-07-04 18:54:16,201 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmp_tlws5rd.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmp_tlws5rd.jpg'
+2025-07-04 18:54:16,217 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpcf_a_fbh.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpcf_a_fbh.jpg'
+2025-07-04 18:54:16,237 - WARNING - Failed to delete temporary file C:\Users\Planet\AppData\Local\Temp\tmpg0icyxss.jpg: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Planet\\AppData\\Local\\Temp\\tmpg0icyxss.jpg'
+2025-07-04 18:54:35,508 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:54:54,543 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:55:00,209 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 18:55:03,962 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"

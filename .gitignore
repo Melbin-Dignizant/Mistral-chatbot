@@ -14,5 +14,6 @@ wheels/
 *.pdf
 *.jpeg
 *.txt
+*.png
 # Virtual environments
 .venv

@@ -1,0 +1,116 @@
+{
+  "project_name": "Bokenäs Förskola",
+  "project_number": "60 887",
+  "client_name": "Uddevalla Kommun",
+  "location": "Bokenäs, Uddevalla",
+  "start_date": null,
+  "end_date": null,
+  "total_area": null,
+  "rooms": [
+    {
+      "name": "Bank Pos 31",
+      "id": "31",
+      "area": null,
+      "materials": [
+        "Rostfri skiva",
+        "Elektriskt höj- och sänkbar benställning",
+        "Bänkskåp",
+        "Flyttbar hylla",
+        "Underhylla",
+        "Vägghyllor"
+      ],
+      "notes": "Includes various storage and work surfaces."
+    },
+    {
+      "name": "Bank Pos 32",
+      "id": "32",
+      "area": null,
+      "materials": [
+        "Rostfri skiva med disklåda",
+        "Justerbar benställning",
+        "Flyttbar hylla",
+        "Underhylla",
+        "Gallerunderhylla",
+        "Vägghylla",
+        "Magnetlist"
+      ],
+      "notes": "Designed for dishwashing and storage."
+    },
+    {
+      "name": "Bank Pos 33",
+      "id": "33",
+      "area": null,
+      "materials": [
+        "Rostfri skiva med utslagsvask",
+        "Justerbar benställning",
+        "Delade gallerunderhylla",
+        "Bänkskåp",
+        "Lådhurts",
+        "Vägghylla"
+      ],
+      "notes": "Includes a sink and storage solutions."
+    },
+    {
+      "name": "Rullbana Pos 42",
+      "id": "42",
+      "area": null,
+      "materials": [
+        "Rullbana med långa löstagbara rullar",
+        "Gallerunderhylla",
+        "Vägghylla"
+      ],
+      "notes": "Designed for easy movement of items."
+    },
+    {
+      "name": "Försölning Bank Pos 41",
+      "id": "41",
+      "area": null,
+      "materials": [
+        "Rostfri skiva med disklåda",
+        "Justerbar benställning",
+        "Gallerunderhylla"
+      ],
+      "notes": "Connected to dishwasher at Pos 21."
+    }
+  ],
+  "materials_used": [
+    "Rostfri skiva",
+    "Elektriskt höj- och sänkbar benställning",
+    "Bänkskåp",
+    "Flyttbar hylla",
+    "Underhylla",
+    "Vägghyllor",
+    "Rostfri skiva med utslagsvask",
+    "Justerbar benställning",
+    "Delade gallerunderhylla",
+    "Lådhurts",
+    "Magnetlist",
+    "Rullbana med långa löstagbara rullar"
+  ],
+  "key_dates": [
+    "2025-02-28"
+  ],
+  "key_contacts": [
+    {
+      "name": "TENGBOM",
+      "role": "Architect/Designer",
+      "contact": "Stora Nygan 1, 411 08 Göteborg, tel. 031-60 64 50, tengbom.se"
+    },
+    {
+      "name": "NORDIQUIST",
+      "role": "Consultant",
+      "contact": null
+    },
+    {
+      "name": "LYCKA",
+      "role": "Consultant",
+      "contact": null
+    },
+    {
+      "name": "CRANKIN",
+      "role": "Consultant",
+      "contact": null
+    }
+  ],
+  "model_notes": "This appears to be a preschool construction project with a focus on functional and adjustable furniture. The project emphasizes the use of stainless steel and modular storage solutions, suggesting a design tailored for durability and flexibility in a childcare environment."
+}
